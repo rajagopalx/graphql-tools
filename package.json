@@ -61,7 +61,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.3.1",
     "eslint-plugin-standard": "5.0.0",
-    "graphql": "15.5.0",
+    "graphql": "experimental-stream-defer",
     "graphql-helix": "1.2.3",
     "graphql-subscriptions": "1.2.1",
     "husky": "4.3.8",
@@ -98,7 +98,7 @@
     ]
   },
   "resolutions": {
-    "graphql": "15.5.0",
+    "graphql": "experimental-stream-defer",
     "@changesets/apply-release-plan": "4.0.0"
   }
 }
