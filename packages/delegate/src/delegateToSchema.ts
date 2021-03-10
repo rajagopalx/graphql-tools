@@ -140,6 +140,7 @@ export function delegateRequest({
     onLocatedError,
     transforms: allTransforms,
     transformedSchema: transformedSchema ?? (subschemaConfig as Subschema)?.transformedSchema ?? targetSchema,
+    asyncSelectionSets: Object.create(null),
   };
 
   const transformer = new Transformer(delegationContext, binding);

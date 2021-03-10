@@ -27,6 +27,7 @@
     "@graphql-tools/pubsub": "^7.0.0",
     "@graphql-tools/schema": "^7.0.0",
     "@graphql-tools/utils": "^7.1.6",
+    "@repeaterjs/repeater": "^3.0.4",
     "dataloader": "2.0.0",
     "is-promise": "4.0.0",
     "tslib": "~2.1.0"

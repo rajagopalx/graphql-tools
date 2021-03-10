@@ -63,6 +63,7 @@ export interface DelegationContext {
   onLocatedError?: (originalError: GraphQLError) => GraphQLError;
   transforms: Array<Transform>;
   transformedSchema: GraphQLSchema;
+  asyncSelectionSets: Record<string, SelectionSetNode>;
 }
 
 export type DelegationBinding = (delegationContext: DelegationContext) => Array<Transform>;
