@@ -221,7 +221,7 @@ function mapFields(originalTypeMap: TypeMap, schema: GraphQLSchema, schemaMapper
   const newTypeMap = {};
 
   Object.keys(originalTypeMap).forEach(typeName => {
-    if (!typeName.startsWith('__')) {
+    if (!typeName.startsWith('__') || typeName == '__resolveReference') {
       const originalType = originalTypeMap[typeName];
 
       if (!isObjectType(originalType) && !isInterfaceType(originalType) && !isInputObjectType(originalType)) {
